@@ -1,0 +1,53 @@
+.main-date {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 12px;
+}
+
+.main-date ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.main-date li {
+  background-color: #e3f2fd;
+  padding: 16px 20px;
+  border-radius: 12px;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.08);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 6px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.main-date li:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 10px 18px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+}
+
+.main-date li div {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: #1e3a8a;
+  text-align: center;
+}
+
+.main-date li div:first-child {
+  font-size: 28px;
+  font-weight: bold;
+  color: #1565c0;
+}
+
+.main-date li div:nth-child(2) {
+  font-size: 18px;
+  font-weight: 600;
+  text-transform: capitalize;
+}
+
+.main-date li div:last-child {
+  font-size: 14px;
+  color: #607d8b;
+}

@@ -1,0 +1,48 @@
+.record-item {
+  list-style: none;
+  padding: 20px;
+  margin: 20px auto;
+  width: 340px;
+  background-color: #ffffff;
+  border-radius: 16px;
+  box-shadow: 0 6px 14px rgba(0, 0, 0, 0.08);
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  cursor: pointer;
+}
+
+.record-item:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.12);
+}
+
+.record-item li {
+  padding: 8px 0;
+  border-bottom: 1px solid #f0f0f0;
+  font-size: 16px;
+  color: #333;
+  transition: color 0.3s ease;
+}
+
+.record-item li:last-child {
+  border-bottom: none;
+}
+
+.record-date {
+  font-size: 14px;
+  color: #607d8b;
+  font-style: italic;
+}
+
+.record-meal {
+  font-weight: 600;
+  color: #1e88e5;
+  text-transform: uppercase;
+}
+
+.record-content {
+  color: #455a64;
+}
