@@ -6,7 +6,7 @@ function App() {
       <h1 className="main-title">Welcome To React with Almadrasa!</h1>
       <CalorieRecords
         date={new Date(2025, 4, 1)}
-        meal="Breakfast"
+        meal="Lunch"
         content="Eggs + Beens"
         recordCalorie="350"
       ></CalorieRecords>
